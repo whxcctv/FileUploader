@@ -6,6 +6,7 @@ ENV PATH $PATH:/nodejs/bin
 EXPOSE 3000
 RUN npm install
 WORKDIR /app/FileUploader
+CMD ["node","app.js"]
 
 
 
